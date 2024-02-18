@@ -1,0 +1,31 @@
+{
+  "name": "@mxjs/config",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "engines": {
+    "node": ">=12.10.0"
+  },
+  "jest": {
+    "preset": "jest-preset-miaoxing"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "@miaoxing/dev": "^8.2.0",
+    "@testing-library/react": "^11.2.6",
+    "react": ">=16.13.1",
+    "react-dom": ">=16.13.1"
+  },
+  "peerDependencies": {
+    "react": ">=16.13.1",
+    "react-dom": ">=16.13.1"
+  },
+  "ciDependencies": {
+    "@miaoxing/dev": "miaoxing/dev"
+  }
+}
