@@ -44,4 +44,4 @@ const useConfig = () => {
   return useContext(ConfigContext);
 };
 
-export { ConfigProvider, ConfigConsumer, useConfig }
+export { ConfigProvider, ConfigConsumer, useConfig };
