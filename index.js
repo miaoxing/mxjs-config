@@ -1,7 +1,7 @@
 import { createContext, useContext, useEffect, useState } from 'react';
 import propTypes from 'prop-types';
 
-const ConfigContext = createContext(null);
+const ConfigContext = createContext({});
 
 const ConfigProvider = ({config: userConfig = {}, children}) => {
   const [config, setConfig] = useState(userConfig);
