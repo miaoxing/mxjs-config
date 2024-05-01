@@ -1,3 +1,10 @@
+## [1.1.2](https://github.com/miaoxing/mxjs-config/compare/v1.1.1...v1.1.2) (2024-05-01)
+
+
+### Bug Fixes
+
+* **config:** `ConfigContext` 默认值应该为空对象，以便子元素获取对象中的配置 ([ee2e41f](https://github.com/miaoxing/mxjs-config/commit/ee2e41f3f70195ca8ccc34a34bee19c9149042ad))
+
 ## [1.1.1](https://github.com/miaoxing/mxjs-config/compare/v1.1.0...v1.1.1) (2024-03-31)
 
 
