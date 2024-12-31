@@ -1,6 +1,6 @@
 {
   "name": "@mxjs/config",
-  "version": "1.1.6",
+  "version": "1.1.7",
   "main": "index.jsx",
   "license": "MIT",
   "publishConfig": {
@@ -17,7 +17,7 @@
     "prop-types": "^15.7.2"
   },
   "devDependencies": {
-    "@miaoxing/dev": "^9.3.0",
+    "@miaoxing/dev": "^9.3.1",
     "@testing-library/react": "^14",
     "react": ">=16.13.1",
     "react-dom": ">=16.13.1"
